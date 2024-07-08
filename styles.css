@@ -7,3 +7,38 @@ body, html {
     height: 100%;
     width: 100%;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#map {
+    height: 90%;
+    width: 90%;
+    margin: 5% auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cocktail-popup {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #fff9e6;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.cocktail-popup h3 {
+    margin-top: 0;
+    color: #8b4513;
+    border-bottom: 2px solid #8b4513;
+    padding-bottom: 5px;
+}
+
+.cocktail-popup p {
+    margin: 5px 0;
+    font-size: 14px;
+}
