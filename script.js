@@ -5,7 +5,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 const cocktailIcon = L.icon({
-    iconUrl: 'https://cdn-icons-png.flaticon.com/512/920/920539.png',
+    iconUrl: 'https://cdn-icons-png.flaticon.com/128/4312/4312393.png',
     iconSize: [30, 30],
     iconAnchor: [15, 30],
     popupAnchor: [0, -30]
